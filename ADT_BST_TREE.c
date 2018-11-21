@@ -139,11 +139,6 @@ T_NODE* search_bst(T_NODE* root, int key){
 	else return root;
 }
 
-
-
-
-
-
 BST_TREE* search_traverse_preorder(BST_TREE* newtree, BST_TREE* tree, T_NODE* root){
 	int temp;
 
@@ -167,35 +162,3 @@ BST_TREE* copy_tree(BST_TREE* tree){
 	return new_tree;
 
 }
-
-
-BST_TREE* search_traverse_postorder(BST_TREE* newtree, BST_TREE* tree, T_NODE* root){
-	int temp;
-	BST_TREE* temp_tree;	
-	temp_tree = create_bst();
-	if(root != NULL){
-		search_traverse_postorder(newtree, tree, root->left);
-		search_traverse_postorder(newtree, tree, root->right);
-		temp = root->data;
-		insert(temp_tree,temp);
-	}
-	return newtree;
-}
-
-
-BST_TREE* copy_tree2(BST_TREE* tree){
-	BST_TREE* new_tree;
-	new_tree = create_bst();
-
-	if(!new_tree) return NULL;
-	new_tree = search_traverse_postorder(new_tree,tree,tree->root);
-	return new_tree;
-}
-
-
-
-
-
-
-
-
