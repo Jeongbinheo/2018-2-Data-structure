@@ -68,7 +68,7 @@
 - Queue의 노드들은 다음 노드를 가르키는 포인터를 가지고 있음.
  
    ###  `>>  Let's see the Code`  
-   ### [ADT_QUEUE.h](https://github.com/Jeongbinheo/Datastructure/blob/master/ADT_queue.h)                      
+   ### [ADT_QUEUE.h](https://github.com/Jeongbinheo/Datastructure/blob/master/ADT_queue.h) (클릭 시 전체 코드 페이지로 이동)             
    ### [ADT_QUEUE.c](https://github.com/Jeongbinheo/Datastructure/blob/master/ADT_queue.c) (클릭 시 전체 코드 페이지로 이동)
    
  - node 및 struct 정의 
@@ -172,7 +172,7 @@ bool enqueue(QUEUE* queue, void* in){
   3. 다양한 search (찾기) 함수들과 traverse (전체 훑기) 함수들이 존재함.  
  
    ###  `>>  Let's see the Code`  
-   ### [ADT_BST_Tree.h](https://github.com/Jeongbinheo/Datastructure/blob/master/ADT_BST_TREE.h)
+   ### [ADT_BST_Tree.h](https://github.com/Jeongbinheo/Datastructure/blob/master/ADT_BST_TREE.h) (클릭 시 전체 코드 페이지로 이동)
    ### [ADT_BST_Tree.c](https://github.com/Jeongbinheo/Datastructure/blob/master/ADT_BST_TREE.c) (클릭 시 전체 코드 페이지로 이동)
 
 
