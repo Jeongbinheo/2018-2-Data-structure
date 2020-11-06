@@ -188,3 +188,32 @@ bool enqueue(QUEUE* queue, void* in){
 1. 새롭게 추가되는 노드들은 8과 크기 비교를 통해서 찾게 됨! 
 2. 10이 추가되려면 8보다 크기때문에 Right에 추가됨
 3. 이후의 숫자들도 모두 같은 과정을 통해 추가되어 숫자데이터를 저장하고 찾을 때 매우 빠른 속도로 내가 찾고자 하는 노드를 search 가능함.
+
+> ## Heap
+ - Heap Tree는 Tree 데이터 구조를 가지지만 배열을 사용하여 노드를 관리하기 때문에 BST와 배치방법에 있어 차이가 있음.
+ 
+ -  우선적으로 데이터의 크기와 관계 없이 배열의 가장 끝에 데이터를 추가하고 나서 Parent노드와의 크기 비교를 통해 heap-up 과정을 거침 
+
+ - 노드 제거 과정에서는 배열에서 제거하거자 하는 노드를 지우고 배열재정렬 후 크기에 맞게 Re-heap 과정을 진행함.
+
+   ###  `>>  Let's see the Code`  
+   ### [ADT_Heap.h](https://github.com/Jeongbinheo/Datastructure/blob/master/ADT_HEAP.h) (클릭 시 전체 코드 페이지로 이동)
+   ### [ADT_Heap.c](https://github.com/Jeongbinheo/Datastructure/blob/master/ADT_HEAP.c) (클릭 시 전체 코드 페이지로 이동)
+
+**>> 그림과 함께 보는 Heap에 대한 설명**
+ **1.  HEAP은 Tree를 가장한 배열구조!**
+ 
+ ![structure](   https://blogfiles.pstatic.net/MjAyMDExMDZfMTQ4/MDAxNjA0NjQ1NjUwOTQ3.Y4BWgiIW1dHSQRn60V8NPmqmygKpCHyNvsx1rcdgfL8g.twdL5UchIo04RmJ3AegXdU19UtypGUyvWadgS8KHG0kg.PNG.hdh988/heap_image1.png?type=w2)
+
+위의 그림과 같이 heap은 tree구조를 가지는 것 처럼 보이지만
+배열의 인덱스 계산을 통해 Child 노드를 정의함.
+(현재 sorting까지 완전히 완료된 상태임을 알 수 있음. (Parent >  Child))
+
+
+**2.  다음 자료구조 중에 Heap 구조가 아닌 것은?**
+
+![structure](https://blogfiles.pstatic.net/MjAyMDExMDZfMTQ0/MDAxNjA0NjQ1ODExNTE0.ckvR6jThhVCUgfw3doM3fXW2a5yfLVlETeVT1Df5pFYg.8SGx3T-E9HnX3XVv1tHw5ptM7eYYPUjZmzR3jRwAnpwg.PNG.hdh988/heap_image_2.png?type=w2)
+
+ a) 는 올바른 HEAP 구조
+ b) 의 경우, HEAP의 대전제인 배열의 내림차순 채움이 위배된 경우
+ c) 는 배열은 올바르게 채워졌으나, 아직까지 크기비교를 통한 Re-heap과정이 진행되지 않아 완전한 HEAP 구조는 아님.
