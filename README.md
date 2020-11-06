@@ -13,7 +13,7 @@
 
 - push, pop 의 함수를 통해 Stack의 기능을 구현하고, 
  count(데이터의 수), top(가장 상위 데이터를 나타내는 포인터) 라는   struct 내부 변수를 가짐.
-   ###  `>>  Let's see the Code`  
+   ###  `>>  Let's see the Code ([FULL CODE](https://github.com/Jeongbinheo/Datastructure/blob/master/stack.c))`  
  - struct 정의 
 ```C++  
    typedef struct stack{
