@@ -175,9 +175,11 @@ bool enqueue(QUEUE* queue, void* in){
    ### [ADT_BST_Tree.h](https://github.com/Jeongbinheo/Datastructure/blob/master/ADT_BST_TREE.h)
    ### [ADT_BST_Tree.c](https://github.com/Jeongbinheo/Datastructure/blob/master/ADT_BST_TREE.c) (클릭 시 전체 코드 페이지로 이동)
 
-**>> 그림과 함께 보는 Binary Search Tree에 대한 설명**
+
+
+  **>> 그림과 함께 보는 Binary Search Tree에 대한 설명**
  
-**8이 바로 ROOT 노드!**
+  **8이 바로 ROOT 노드!**
 
 
 ![structure](https://blogfiles.pstatic.net/MjAyMDExMDZfMjg5/MDAxNjA0NjQzNDcxMDYz.-sO0T4S_jEIuMPaAsIiRFlqOhrdmG5EfYudIIOB2iY4g.kf1qUBP9DMoZgth1_zMxVNdbxnIRo7RcTOL4OWf5gygg.PNG.hdh988/BST_tree_image1.png?type=w2)
