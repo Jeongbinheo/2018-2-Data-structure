@@ -2,11 +2,11 @@
 - ### 2018FW COMP331 자료구조 수업동안 배웠던 코드자료에 대한 정리를 위한 Resipotary
 
 -  ### 목차 (각 제목 클릭 시 설명부분으로 바로 이동)
-   1. [Stack](Datastructure.md#Stack) 
-   2. [Queue](Datastructure.md#Queue) 
-   3. [BST_Tree](Datastructure.md#BST_Tree) 
-   4. [Heap](Datastructure.md#Heap)
-   5. [List](Datastructure.md#List) 
+   1. [Stack](README.md#Stack) 
+   2. [Queue](README.md#Queue) 
+   3. [BST_Tree](README.md#BST_Tree) 
+   4. [Heap](README.md#Heap)
+   5. [List](README.md#List) 
   
 > ## Stack
 - Stack은 후입선출의 기능을 가지는 자료구조의 형태
