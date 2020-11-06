@@ -159,7 +159,7 @@ bool enqueue(QUEUE* queue, void* in){
 
 > ## BST_Tree
 - BST_Tree는 Binary Search Tree로 child node가 오직 2개인 Tree이며,   재귀적으로 함수를 호출하며 데이터의 크기 비교를 하면서 작은 숫자는 left, 큰 숫자는 right에 데이터를 저장하는 자료구조.
-   
+
 - Tree는 ROOT라는 대표 Parent 노드 변수를 가지고 있음.
 
 - 각 노드들은 데이터와 자신의 Right, Left에 있는 노드를 가르키는 포인터를 변수로 가지고 있음.
@@ -174,3 +174,14 @@ bool enqueue(QUEUE* queue, void* in){
    ###  `>>  Let's see the Code`  
    ### [ADT_BST_Tree.h](https://github.com/Jeongbinheo/Datastructure/blob/master/ADT_BST_TREE.h)
    ### [ADT_BST_Tree.c](https://github.com/Jeongbinheo/Datastructure/blob/master/ADT_BST_TREE.c) (클릭 시 전체 코드 페이지로 이동)
+
+**>> 그림과 함께 보는 Binary Search Tree에 대한 설명**
+ 
+**8이 바로 ROOT 노드!**
+
+
+![structure](   https://blogfiles.pstatic.net/MjAyMDExMDZfMTE3/MDAxNjA0NjQyOTY4NDQ1.Rn2kmcZZ5i3I9_x31Wz98DP-G9AKq-oXcuPe86CVV1og.FpWzRkcZfl411DQtD7ZoezZ7OwxHMZ-365JJOM9_HBEg.PNG.hdh988/BST_tree_image1.png?type=w2
+)
+1. 새롭게 추가되는 노드들은 8과 크기 비교를 통해서 찾게 됨! 
+2. 10이 추가되려면 8보다 크기때문에 Right에 추가됨
+3. 이후의 숫자들도 모두 같은 과정을 통해 추가되어 숫자데이터를 저장하고 찾을 때 매우 빠른 속도로 내가 찾고자 하는 노드를 search 가능함.
