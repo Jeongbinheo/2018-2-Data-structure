@@ -207,7 +207,9 @@ bool enqueue(QUEUE* queue, void* in){
  ![structure](   https://blogfiles.pstatic.net/MjAyMDExMDZfMTQ4/MDAxNjA0NjQ1NjUwOTQ3.Y4BWgiIW1dHSQRn60V8NPmqmygKpCHyNvsx1rcdgfL8g.twdL5UchIo04RmJ3AegXdU19UtypGUyvWadgS8KHG0kg.PNG.hdh988/heap_image1.png?type=w2)
 
 위의 그림과 같이 heap은 tree구조를 가지는 것 처럼 보이지만
+
 배열의 인덱스 계산을 통해 Child 노드를 정의함.
+
 (현재 sorting까지 완전히 완료된 상태임을 알 수 있음. (Parent >  Child))
 
 
@@ -215,6 +217,8 @@ bool enqueue(QUEUE* queue, void* in){
 
 ![structure](https://blogfiles.pstatic.net/MjAyMDExMDZfMTQ0/MDAxNjA0NjQ1ODExNTE0.ckvR6jThhVCUgfw3doM3fXW2a5yfLVlETeVT1Df5pFYg.8SGx3T-E9HnX3XVv1tHw5ptM7eYYPUjZmzR3jRwAnpwg.PNG.hdh988/heap_image_2.png?type=w2)
 
- a) 는 올바른 HEAP 구조
- b) 의 경우, HEAP의 대전제인 배열의 내림차순 채움이 위배된 경우
- c) 는 배열은 올바르게 채워졌으나, 아직까지 크기비교를 통한 Re-heap과정이 진행되지 않아 완전한 HEAP 구조는 아님.
+a) 는 올바른 HEAP 구조
+
+b) 의 경우, HEAP의 대전제인 배열의 내림차순 채움이 위배된 경우
+
+c) 는 배열은 올바르게 채워졌으나, 아직까지 크기비교를 통한 Re-heap과정이 진행되지 않아 완전한 HEAP 구조는 아님.
