@@ -180,8 +180,8 @@ bool enqueue(QUEUE* queue, void* in){
 **8이 바로 ROOT 노드!**
 
 
-![structure](   https://blogfiles.pstatic.net/MjAyMDExMDZfMTE3/MDAxNjA0NjQyOTY4NDQ1.Rn2kmcZZ5i3I9_x31Wz98DP-G9AKq-oXcuPe86CVV1og.FpWzRkcZfl411DQtD7ZoezZ7OwxHMZ-365JJOM9_HBEg.PNG.hdh988/BST_tree_image1.png?type=w2
-)
+![structure](https://blogfiles.pstatic.net/MjAyMDExMDZfMjg5/MDAxNjA0NjQzNDcxMDYz.-sO0T4S_jEIuMPaAsIiRFlqOhrdmG5EfYudIIOB2iY4g.kf1qUBP9DMoZgth1_zMxVNdbxnIRo7RcTOL4OWf5gygg.PNG.hdh988/BST_tree_image1.png?type=w2)
+
 1. 새롭게 추가되는 노드들은 8과 크기 비교를 통해서 찾게 됨! 
 2. 10이 추가되려면 8보다 크기때문에 Right에 추가됨
 3. 이후의 숫자들도 모두 같은 과정을 통해 추가되어 숫자데이터를 저장하고 찾을 때 매우 빠른 속도로 내가 찾고자 하는 노드를 search 가능함.
