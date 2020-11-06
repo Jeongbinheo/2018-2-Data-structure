@@ -156,3 +156,21 @@ bool enqueue(QUEUE* queue, void* in){
 	}
 }
 ``` 
+
+> ## BST_Tree
+- BST_Tree는 Binary Search Tree로 child node가 오직 2개인 Tree이며,   재귀적으로 함수를 호출하며 데이터의 크기 비교를 하면서 작은 숫자는 left, 큰 숫자는 right에 데이터를 저장하는 자료구조.
+   
+- Tree는 ROOT라는 대표 Parent 노드 변수를 가지고 있음.
+
+- 각 노드들은 데이터와 자신의 Right, Left에 있는 노드를 가르키는 포인터를 변수로 가지고 있음.
+ 
+- Tree는 다양한 함수를 가지고 있음 
+  1. add 함수는 새로운 노드를 재귀적으로 add함수를 사용해 크기 비교를 하면서 올바른 위치에 새 노드를 추가함
+  
+  2.  delete함수는 내가 없애고자 하는 노드를 없애고,  해당 노드가 가지고 있던 child를 다시 root와 연결해주는 기능을 가짐.
+  
+  3. 다양한 search (찾기) 함수들과 traverse (전체 훑기) 함수들이 존재함.  
+ 
+   ###  `>>  Let's see the Code`  
+   ### [ADT_BST_Tree.h](https://github.com/Jeongbinheo/Datastructure/blob/master/ADT_BST_TREE.h)
+   ### [ADT_BST_Tree.c](https://github.com/Jeongbinheo/Datastructure/blob/master/ADT_BST_TREE.c) (클릭 시 전체 코드 페이지로 이동)
