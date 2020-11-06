@@ -201,6 +201,7 @@ bool enqueue(QUEUE* queue, void* in){
    ### [ADT_Heap.c](https://github.com/Jeongbinheo/Datastructure/blob/master/ADT_HEAP.c) (클릭 시 전체 코드 페이지로 이동)
 
 **>> 그림과 함께 보는 Heap에 대한 설명**
+
  **1.  HEAP은 Tree를 가장한 배열구조!**
  
  ![structure](   https://blogfiles.pstatic.net/MjAyMDExMDZfMTQ4/MDAxNjA0NjQ1NjUwOTQ3.Y4BWgiIW1dHSQRn60V8NPmqmygKpCHyNvsx1rcdgfL8g.twdL5UchIo04RmJ3AegXdU19UtypGUyvWadgS8KHG0kg.PNG.hdh988/heap_image1.png?type=w2)
