@@ -68,8 +68,8 @@
 - Queue의 노드들은 다음 노드를 가르키는 포인터를 가지고 있음.
  
    ###  `>>  Let's see the Code`  
-   [ADT_QUEUE.h](https://github.com/Jeongbinheo/Datastructure/blob/master/ADT_queue.h)                      
-   [ADT_QUEUE.c](https://github.com/Jeongbinheo/Datastructure/blob/master/ADT_queue.c) (클릭 시 전체 코드 페이지로 이동)
+   ### [ADT_QUEUE.h](https://github.com/Jeongbinheo/Datastructure/blob/master/ADT_queue.h)                      
+   ### [ADT_QUEUE.c](https://github.com/Jeongbinheo/Datastructure/blob/master/ADT_queue.c) (클릭 시 전체 코드 페이지로 이동)
    
  - node 및 struct 정의 
 ```C++  
