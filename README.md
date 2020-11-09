@@ -6,7 +6,7 @@
    2. [Queue](README.md#Queue) 
    3. [BST_Tree](README.md#BST_Tree) 
    4. [Heap](README.md#Heap)
-   5. [List](README.md#Linked-list) 
+   5. [List](README.md#linked-list) 
 -----
 
 > ## Stack
@@ -241,7 +241,6 @@ c) 는 배열은 올바르게 채워졌으나, 아직까지 크기비교를 통�
  있는 것이 특징!
 #
 ![structure](https://blogfiles.pstatic.net/MjAyMDExMDlfMTY4/MDAxNjA0ODk1NjI0MTUy.shjTLFEfekxrvbauGsBX3tdUo678j3UoBCKFL2cW_7Yg.UrpfK8tMd7iCR10BtBrVqzThzHgMCxcpECWHs74P0Ogg.JPEG.hdh988/%EC%A0%9C%EB%AA%A9_%EC%97%86%EC%9D%8C.jpg?type=w2)
-#
  
  - 다른 선형 자료구조에 비해 새로운 데이터 노드를 만들고 제거하는 것이 쉬운 편!
 
