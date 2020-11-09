@@ -112,36 +112,37 @@
 }  
 ```
 
-  **- enqueue**
-  - queue에 새로운 노드를 추가하는 함수
+   **- enqueue**
+   - queue에 새로운 노드를 추가하는 함수
   
-  - 새롭게 추가되는 노드는 queue의 rear에 연결되는 것을 구현
+   - 새롭게 추가되는 노드는 queue의 rear에 연결되는 것을 구현
   
-  - 타겟으로 하는 queue와 새로운 노드를 함수의 인자로 받아 boolean 타입으로 반환함.
+   - 타겟으로 하는 queue와 새로운 노드를 함수의 인자로 받아 boolean 타입으로 반환함.
 
 
 ```C++   
-bool enqueue(QUEUE* queue, void* in){
-	QUEUE_NODE* new_node=(QUEUE_NODE*)malloc(sizeof(QUEUE_NODE));
+	bool enqueue(QUEUE* queue, void* in){
+		QUEUE_NODE* new_node=(QUEUE_NODE*)malloc(sizeof(QUEUE_NODE));
     
-	if(new_node == NULL){
-		return false;
-	}else{	
-		new_node->data_ptr = in;
-		new_node->next = NULL;
-	if(queue->count == 0){
-		queue->front=new_node;
-	}else{
-		queue->rear->next = new_node;
-	}
+		if(new_node == NULL){
+			return false;
+		}else{	
+			new_node->data_ptr = in;
+			new_node->next = NULL;
+		if(queue->count == 0){
+			queue->front=new_node;
+		}else{
+			queue->rear->next = new_node;
+		}
 
-	queue->rear=new_node;
-	queue->count++;
+		queue->rear=new_node;
+		queue->count++;
 
-	return true;
+		return true;
+		}
 	}
-}
 ``` 
+  
   **- dequeue**
   - queue의 가장 앞부분에 있는 노드를 제거하는 함수
   
