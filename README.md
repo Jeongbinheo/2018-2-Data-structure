@@ -232,7 +232,7 @@ c) 는 배열은 올바르게 채워졌으나, 아직까지 크기비교를 통�
    ### [ADT_list.h](https://github.com/Jeongbinheo/2018-2-Data-structure/blob/master/ADT_list.h) (클릭 시 전체 코드 페이지로 이동)
    ### [ADT_list.c](https://github.com/Jeongbinheo/2018-2-Data-structure/blob/master/ADT_list.c) (클릭 시 전체 코드 페이지로 이동)
 
-  **`delete_node_at() 코드 중 pre, pos 포인터에 대한 설명`**
+  - **`delete_node_at() 코드 중 pre, pos 포인터에 대한 설명`**
   
   deletion 과정에서 delete 이후에 삭제된 node의 next node와 삭제된 node를 next node로 가지고 있던 노드를
   
