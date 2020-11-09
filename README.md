@@ -23,8 +23,10 @@
    }STACK; 
 ``` 
  - stack에 사용되는 함수 
-     --  Push  
-         stack에 새 노드를 추가하는 함수 
+     
+   - **Push** : stack에 새 노드를 추가하는 함수 
+
+
 ```C++  
    int push(STACK* S, void* in){
 	   printf("pushing a data into stack......\n");
@@ -41,8 +43,11 @@
 	return 1;
 }
 ```
-   -- Pop  
-      제일 상위에 위치하는 노드를 제거하는 함수
+
+
+- **Pop** : 제일 상위에 위치하는 노드를 제거하는 함수
+
+
 ```C++  
    int pop(STACK* S, void* in){
 	   printf("pushing a data into stack......\n");
@@ -61,17 +66,19 @@
 ```
 
 > ## Queue
-- Queue는 선입선출의 기능을 가지는 자료구조의 형태
+**- Queue는 선입선출의 기능을 가지는 자료구조의 형태**
 
-- enqueue, dequeue 의 함수를 통해 Queue 데이터 삽입 및 반출 기능 구현, count(데이터의 수), node의 위치 포인터 front, rear를 struct 내부 변수를 가짐.
+**- enqueue, dequeue 의 함수를 통해 Queue 데이터 삽입 및 반출 기능 구현, count(데이터의 수),**
+  **node의 위치 포인터 front, rear를 struct 내부 변수를 가짐.**
 
-- Queue의 노드들은 다음 노드를 가르키는 포인터를 가지고 있음.
+ **- Queue의 노드들은 다음 노드를 가르키는 포인터를 가지고 있음.**
  
    ###  `>>  Let's see the Code`  
    ### [ADT_QUEUE.h](https://github.com/Jeongbinheo/Datastructure/blob/master/ADT_queue.h) (클릭 시 전체 코드 페이지로 이동)             
    ### [ADT_QUEUE.c](https://github.com/Jeongbinheo/Datastructure/blob/master/ADT_queue.c) (클릭 시 전체 코드 페이지로 이동)
    
- - node 및 struct 정의 
+ **- node 및 struct 정의**
+ 
 ```C++  
 	typedef struct node{
 			void* data_ptr;
@@ -85,9 +92,10 @@
 	}QUEUE;
 ```
 
-- Queue에 사용되는 함수
+**- Queue에 사용되는 함수**
 
-    -- create_queue()  
+  **- create_queue()** : Queue 구조체를 만들고 초기화 하는 함수  
+
 ``` C++
 	 QUEUE* create_queue(){
 		QUEUE* queue;
@@ -103,10 +111,15 @@
 			return NULL;
 }  
 ```
-   -- enqueue
-    queue에 새로운 노드를 추가하는 함수 
-  새롭게 추가되는 노드는 queue의 rear에 연결되는 것을 구현  
- 타겟으로 하는 queue와 새로운 노드를 함수의 인자로 받아 boolean 타입으로 반환함.
+
+  **- enqueue**
+  - queue에 새로운 노드를 추가하는 함수
+  
+  - 새롭게 추가되는 노드는 queue의 rear에 연결되는 것을 구현
+  
+  - 타겟으로 하는 queue와 새로운 노드를 함수의 인자로 받아 boolean 타입으로 반환함.
+
+
 ```C++   
 bool enqueue(QUEUE* queue, void* in){
 	QUEUE_NODE* new_node=(QUEUE_NODE*)malloc(sizeof(QUEUE_NODE));
@@ -129,33 +142,24 @@ bool enqueue(QUEUE* queue, void* in){
 	}
 }
 ``` 
-   -- dequeue
-   queue의 가장 앞부분에 있는 노드를 제거하는 함수
-   queue의 front 다음 노드를 front로 바꾸고, count를 하나 늘리는 기능
+  **- dequeue**
+  - queue의 가장 앞부분에 있는 노드를 제거하는 함수
+  
+  - queue의 front 다음 노드를 front로 바꾸고, count를 하나 늘리는 기능
 
 //dequeue 함수 코드 입력하기
-```C++    
-bool enqueue(QUEUE* queue, void* in){
-	QUEUE_NODE* new_node=(QUEUE_NODE*)malloc(sizeof(QUEUE_NODE));
-    
-	if(new_node == NULL){
-		return false;
-	}else{	
-		new_node->data_ptr = in;
-		new_node->next = NULL;
-	if(queue->count == 0){
-		queue->front=new_node;
-	}else{
-		queue->rear->next = new_node;
-	}
+ 
 
-	queue->rear=new_node;
-	queue->count++;
 
-	return true;
-	}
-}
-``` 
+
+
+
+
+
+
+
+
+
 
 > ## BST_Tree
 - BST_Tree는 Binary Search Tree로 child node가 오직 2개인 Tree이며,   재귀적으로 함수를 호출하며 데이터의 크기 비교를 하면서 작은 숫자는 left, 큰 숫자는 right에 데이터를 저장하는 자료구조.
