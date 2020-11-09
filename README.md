@@ -13,7 +13,7 @@
 
 - push, pop 의 함수를 통해 Stack의 기능을 구현하고, 
  count(데이터의 수), top(가장 상위 데이터를 나타내는 포인터) 라는   struct 내부 변수를 가짐.
-   ###  `>>  Let's see the Code`  [Stack.c](https://github.com/Jeongbinheo/Datastructure/blob/master/stack.c) (클릭 시 전체 코드 페이지로 이동)
+   ###  `>>  Let's see the Code`  [Stack.c](https://github.com/Jeongbinheo/2018-2-Data-structure/blob/master/stack.c) (클릭 시 전체 코드 페이지로 이동)
  - struct 정의 
 ```C++  
    typedef struct stack{
@@ -74,8 +74,8 @@
 - **Queue의 노드들은 다음 노드를 가르키는 포인터를 가지고 있음.**
  
    ###  `>>  Let's see the Code`  
-   ### [ADT_QUEUE.h](https://github.com/Jeongbinheo/Datastructure/blob/master/ADT_queue.h) (클릭 시 전체 코드 페이지로 이동)             
-   ### [ADT_QUEUE.c](https://github.com/Jeongbinheo/Datastructure/blob/master/ADT_queue.c) (클릭 시 전체 코드 페이지로 이동)
+   ### [ADT_QUEUE.h](https://github.com/Jeongbinheo/2018-2-Data-structure/blob/master/ADT_queue.h) (클릭 시 전체 코드 페이지로 이동)             
+   ### [ADT_QUEUE.c](https://github.com/Jeongbinheo/2018-2-Data-structure/blob/master/ADT_queue.c) (클릭 시 전체 코드 페이지로 이동)
    
  - **node 및 struct 정의**
  
@@ -177,8 +177,8 @@
   3. 다양한 search (찾기) 함수들과 traverse (전체 훑기) 함수들이 존재함.  
  
    ###  `>>  Let's see the Code`  
-   ### [ADT_BST_Tree.h](https://github.com/Jeongbinheo/Datastructure/blob/master/ADT_BST_TREE.h) (클릭 시 전체 코드 페이지로 이동)
-   ### [ADT_BST_Tree.c](https://github.com/Jeongbinheo/Datastructure/blob/master/ADT_BST_TREE.c) (클릭 시 전체 코드 페이지로 이동)
+   ### [ADT_BST_Tree.h](https://github.com/Jeongbinheo/2018-2-Data-structure/blob/master/ADT_BST_TREE.h) (클릭 시 전체 코드 페이지로 이동)
+   ### [ADT_BST_Tree.c](https://github.com/Jeongbinheo/2018-2-Data-structure/blob/master/ADT_BST_TREE.c) (클릭 시 전체 코드 페이지로 이동)
 
 
 
@@ -202,8 +202,8 @@
  - 노드 제거 과정에서는 배열에서 제거하거자 하는 노드를 지우고 배열재정렬 후 크기에 맞게 Re-heap 과정을 진행함.
 
    ###  `>>  Let's see the Code`  
-   ### [ADT_Heap.h](https://github.com/Jeongbinheo/Datastructure/blob/master/ADT_HEAP.h) (클릭 시 전체 코드 페이지로 이동)
-   ### [ADT_Heap.c](https://github.com/Jeongbinheo/Datastructure/blob/master/ADT_HEAP.c) (클릭 시 전체 코드 페이지로 이동)
+   ### [ADT_Heap.h](https://github.com/Jeongbinheo/2018-2-Data-structure/blob/master/ADT_HEAP.h) (클릭 시 전체 코드 페이지로 이동)
+   ### [ADT_Heap.c](https://github.com/Jeongbinheo/2018-2-Data-structure/blob/master/ADT_HEAP.c) (클릭 시 전체 코드 페이지로 이동)
 
 **>> 그림과 함께 보는 Heap에 대한 설명**
 
