@@ -185,7 +185,7 @@
 
 
 
-  **>> 그림과 함께 보는 Binary Search Tree에 대한 설명**
+  **`그림과 함께 보는 Binary Search Tree에 대한 설명`**
  
   **8이 바로 ROOT 노드!**
 
@@ -210,7 +210,7 @@
    ### [ADT_Heap.h](https://github.com/Jeongbinheo/2018-2-Data-structure/blob/master/ADT_HEAP.h) (클릭 시 전체 코드 페이지로 이동)
    ### [ADT_Heap.c](https://github.com/Jeongbinheo/2018-2-Data-structure/blob/master/ADT_HEAP.c) (클릭 시 전체 코드 페이지로 이동)
 
-**>> 그림과 함께 보는 Heap에 대한 설명**
+**`그림과 함께 보는 Heap에 대한 설명`**
 
  **1.  HEAP은 Tree를 가장한 배열구조!**
  
@@ -249,4 +249,16 @@ c) 는 배열은 올바르게 채워졌으나, 아직까지 크기비교를 통�
    ###  `>>  Let's see the Code`  
    ### [ADT_list.h](https://github.com/Jeongbinheo/2018-2-Data-structure/blob/master/ADT_list.h) (클릭 시 전체 코드 페이지로 이동)
    ### [ADT_list.c](https://github.com/Jeongbinheo/2018-2-Data-structure/blob/master/ADT_list.c) (클릭 시 전체 코드 페이지로 이동)
+
+  **`delete_node_at() 코드 중 pre, pos 포인터에 대한 설명`**
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 
