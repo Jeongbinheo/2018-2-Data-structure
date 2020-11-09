@@ -234,6 +234,10 @@ c) 는 배열은 올바르게 채워졌으나, 아직까지 크기비교를 통�
 
   **`delete_node_at() 코드 중 pre, pos 포인터에 대한 설명`**
   
+  deletion 과정에서 delete 이후에 삭제된 node의 next node와 삭제된 node를 next node로 가지고 있던 노드를
+  
+  연결하기 위한 포인터 pre를 어떻게 지정하는지에 대한 코드입니다.
+  
 ```c
 	
 	int iter_i=0;
