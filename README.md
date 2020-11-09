@@ -239,10 +239,10 @@ c) 는 배열은 올바르게 채워졌으나, 아직까지 크기비교를 통�
  - List는 Queue와 비슷하게 나열된 구조를 가지고 있는 것 처럼 
  보이지만, 특정 노드에 바로 접근할 수 있는 포인터를 가지고 
  있는 것이 특징!
----
+#
 ![structure](https://blogfiles.pstatic.net/MjAyMDExMDlfMTY4/MDAxNjA0ODk1NjI0MTUy.shjTLFEfekxrvbauGsBX3tdUo678j3UoBCKFL2cW_7Yg.UrpfK8tMd7iCR10BtBrVqzThzHgMCxcpECWHs74P0Ogg.JPEG.hdh988/%EC%A0%9C%EB%AA%A9_%EC%97%86%EC%9D%8C.jpg?type=w2)
-
- ---
+#
+ 
  - 다른 선형 자료구조에 비해 새로운 데이터 노드를 만들고 제거하는 것이 쉬운 편!
 
  - list_create(), add_node_at(), delete_node_at() 등의 함수를 이용해 List 자료구조의 응용 가능.
