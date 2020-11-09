@@ -144,24 +144,6 @@
 		}
 	}
 ``` 
-  
-  **- dequeue**
-  - queue의 가장 앞부분에 있는 노드를 제거하는 함수
-  
-  - queue의 front 다음 노드를 front로 바꾸고, count를 하나 늘리는 기능
-
-//dequeue 함수 코드 입력하기
- 
-
-
-
-
-
-
-
-
-
-
 
 -----
 
@@ -251,6 +233,23 @@ c) 는 배열은 올바르게 채워졌으나, 아직까지 크기비교를 통�
    ### [ADT_list.c](https://github.com/Jeongbinheo/2018-2-Data-structure/blob/master/ADT_list.c) (클릭 시 전체 코드 페이지로 이동)
 
   **`delete_node_at() 코드 중 pre, pos 포인터에 대한 설명`**
+  
+```c
+	
+	int iter_i=0;
+	list->pos = list->front;
+	NODE*pre = NULL;
+    // list의 pos 포인터를 front로 맞추고 
+    // pre 라는 노드 포인터를 생성함.
+   
+	while(iter_i != index){
+		pre = list->pos;
+		list->pos = list->pos->next;
+		iter_i++;
+    } 
+    // 내가 찾는 인덱스까지 pos 포인터와 pre 포인터를 같이 이동
+```
+![structure](https://blogfiles.pstatic.net/MjAyMDExMDlfMTk4/MDAxNjA0ODk4MTg5MTI1.T2dj8nbZFVB6D0Rcu3fTcoyqaKHDA52um8zsvN2yKAAg.fTZuJCNN-cv4l9WPFs1cqxAO9qjV7J8KjN7d6Sp_ErQg.JPEG.hdh988/Pre%2C_Pos.jpg?type=w2)
   
   
   
