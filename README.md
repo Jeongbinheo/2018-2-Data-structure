@@ -182,10 +182,9 @@
    ###  `>>  Let's see the Code`  
    ### [ADT_BST_Tree.h](https://github.com/Jeongbinheo/2018-2-Data-structure/blob/master/ADT_BST_TREE.h) (클릭 시 전체 코드 페이지로 이동)
    ### [ADT_BST_Tree.c](https://github.com/Jeongbinheo/2018-2-Data-structure/blob/master/ADT_BST_TREE.c) (클릭 시 전체 코드 페이지로 이동)
-
-
-
-  **`그림과 함께 보는 Binary Search Tree에 대한 설명`**
+  <br/>
+  
+ - **`그림과 함께 보는 Binary Search Tree에 대한 설명`**
  
   **8이 바로 ROOT 노드!**
 
@@ -209,8 +208,8 @@
    ###  `>>  Let's see the Code`  
    ### [ADT_Heap.h](https://github.com/Jeongbinheo/2018-2-Data-structure/blob/master/ADT_HEAP.h) (클릭 시 전체 코드 페이지로 이동)
    ### [ADT_Heap.c](https://github.com/Jeongbinheo/2018-2-Data-structure/blob/master/ADT_HEAP.c) (클릭 시 전체 코드 페이지로 이동)
-
-**`그림과 함께 보는 Heap에 대한 설명`**
+<br/>
+- **`그림과 함께 보는 Heap에 대한 설명`**
 
  **1.  HEAP은 Tree를 가장한 배열구조!**
  
