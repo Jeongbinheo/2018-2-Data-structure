@@ -6,7 +6,7 @@
    2. [Queue](README.md#Queue) 
    3. [BST_Tree](README.md#BST_Tree) 
    4. [Heap](README.md#Heap)
-   5. [List](README.md#List) 
+   5. [List](README.md#Linked-list) 
 -----
 
 > ## Stack
