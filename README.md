@@ -7,7 +7,8 @@
    3. [BST_Tree](README.md#BST_Tree) 
    4. [Heap](README.md#Heap)
    5. [List](README.md#List) 
-  
+-----
+
 > ## Stack
 - Stack은 후입선출의 기능을 가지는 자료구조의 형태
 
@@ -64,6 +65,7 @@
 	return 1;
 }
 ```
+-----
 
 > ## Queue
 - **Queue는 선입선출의 기능을 가지는 자료구조의 형태**
@@ -161,6 +163,7 @@
 
 
 
+-----
 
 > ## BST_Tree
 - BST_Tree는 Binary Search Tree로 child node가 오직 2개인 Tree이며,   재귀적으로 함수를 호출하며 데이터의 크기 비교를 하면서 작은 숫자는 left, 큰 숫자는 right에 데이터를 저장하는 자료구조.
@@ -193,6 +196,8 @@
 1. 새롭게 추가되는 노드들은 8과 크기 비교를 통해서 찾게 됨! 
 2. 10이 추가되려면 8보다 크기때문에 Right에 추가됨
 3. 이후의 숫자들도 모두 같은 과정을 통해 추가되어 숫자데이터를 저장하고 찾을 때 매우 빠른 속도로 내가 찾고자 하는 노드를 search 가능함.
+
+-----
 
 > ## Heap
  - Heap Tree는 Tree 데이터 구조를 가지지만 배열을 사용하여 노드를 관리하기 때문에 BST와 배치방법에 있어 차이가 있음.
@@ -227,3 +232,22 @@ a) 는 올바른 HEAP 구조
 b) 의 경우, HEAP의 대전제인 배열의 내림차순 채움이 위배된 경우
 
 c) 는 배열은 올바르게 채워졌으나, 아직까지 크기비교를 통한 Re-heap과정이 진행되지 않아 완전한 HEAP 구조는 아님.
+
+-----
+
+> ## Linked List
+ - List는 Queue와 비슷하게 나열된 구조를 가지고 있는 것 처럼 
+ 보이지만, 특정 노드에 바로 접근할 수 있는 포인터를 가지고 
+ 있는 것이 특징!
+---
+![structure](https://blogfiles.pstatic.net/MjAyMDExMDlfMTY4/MDAxNjA0ODk1NjI0MTUy.shjTLFEfekxrvbauGsBX3tdUo678j3UoBCKFL2cW_7Yg.UrpfK8tMd7iCR10BtBrVqzThzHgMCxcpECWHs74P0Ogg.JPEG.hdh988/%EC%A0%9C%EB%AA%A9_%EC%97%86%EC%9D%8C.jpg?type=w2)
+
+ ---
+ - 다른 선형 자료구조에 비해 새로운 데이터 노드를 만들고 제거하는 것이 쉬운 편!
+
+ - list_create(), add_node_at(), delete_node_at() 등의 함수를 이용해 List 자료구조의 응용 가능.
+
+   ###  `>>  Let's see the Code`  
+   ### [ADT_list.h](https://github.com/Jeongbinheo/2018-2-Data-structure/blob/master/ADT_list.h) (클릭 시 전체 코드 페이지로 이동)
+   ### [ADT_list.c](https://github.com/Jeongbinheo/2018-2-Data-structure/blob/master/ADT_list.c) (클릭 시 전체 코드 페이지로 이동)
+
