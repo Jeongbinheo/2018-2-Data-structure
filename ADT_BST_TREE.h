@@ -28,9 +28,3 @@ void traverse_postoder(T_NODE* root);
 
 BST_TREE* copy_tree(BST_TREE* tree);
 BST_TREE* search_traverse_preorder(BST_TREE* newtree, BST_TREE* tree, T_NODE* root);
-BST_TREE* copy_tree2(BST_TREE* tree);
-BST_TREE* search_traverse_postorder(BST_TREE* newtree, BST_TREE* tree, T_NODE* root);
-
-
-
-
